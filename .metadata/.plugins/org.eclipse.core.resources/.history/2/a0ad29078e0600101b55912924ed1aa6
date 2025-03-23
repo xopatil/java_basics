@@ -1,0 +1,17 @@
+package q1b;
+
+import q1a.importstatic;
+
+public class B {
+	public static void main(String[] args) {
+		importstatic importstatic = new importstatic();
+		System.out.println(importstatic);
+
+	}
+
+	@Override
+	public String toString() {
+		return "B []";
+	}
+
+}

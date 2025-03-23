@@ -1,0 +1,27 @@
+package exception;
+
+
+class A{
+	
+	void meth() {
+		int c = 10/0;
+	}
+	
+}
+
+class B{
+
+}
+
+class C{
+	
+	
+}
+
+
+public class Propagation {
+	public static void main(String[] args) {
+		
+	}
+
+}

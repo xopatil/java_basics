@@ -1,0 +1,26 @@
+package exception;
+
+class A1 {
+
+	void meth() {
+		try {
+			int a[] = new int[5];
+			a[10] = 10 / 0;
+			
+		} catch (Exception e) {
+			System.out.println(e);
+			
+		}
+		
+		
+	}
+
+}
+
+public class Multicatch {
+	public static void main(String[] args) {
+		A1 a1 = new A1();
+		a1.meth();
+	}
+
+}

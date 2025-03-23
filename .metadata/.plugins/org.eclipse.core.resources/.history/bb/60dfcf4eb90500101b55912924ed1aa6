@@ -1,0 +1,31 @@
+package question2;
+
+
+class Emp{
+
+		
+	String name;
+	int id;
+	public Emp(String name, int id) {
+		super();
+		this.name = name;
+		this.id = id;
+	}
+	@Override
+	public String toString() {
+		return "Emp [name=" + name + ", id=" + id + "]";
+	}
+	
+	
+	
+}
+
+public class Main{
+	public static void main(String[] args) {
+		
+		
+		
+		
+		
+	}
+}

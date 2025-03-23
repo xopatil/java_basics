@@ -1,0 +1,14 @@
+package Q3p2;
+
+import Q3p1.A;
+
+class Emp extends A{
+	
+}
+
+public class Main {
+	public static void main(String[] args) {
+		
+		
+	}
+}

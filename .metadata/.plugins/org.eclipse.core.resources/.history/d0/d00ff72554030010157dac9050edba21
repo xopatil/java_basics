@@ -1,0 +1,27 @@
+package q3p1;
+
+
+
+class A{
+	
+	
+}
+
+class B{
+	
+}
+
+
+class C extends A{
+	
+}
+
+
+
+
+
+
+public class Main {
+	
+
+}

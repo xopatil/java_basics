@@ -1,0 +1,29 @@
+package exception;
+import java.lang.Exception;
+
+class A{
+	
+	void meth() throws Exception{
+		int c = 10/0;
+		System.out.println(c);
+	}
+	
+}
+
+class B{
+
+}
+
+class C{
+	
+	
+}
+
+
+public class Propagation {
+	public static void main(String[] args) {
+		A a = new A ();
+		a.meth();
+	}
+
+}

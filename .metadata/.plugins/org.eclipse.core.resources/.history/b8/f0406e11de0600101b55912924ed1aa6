@@ -1,0 +1,30 @@
+package exception;
+
+
+
+class AgeException extends Exception{
+	
+	
+}
+
+
+
+
+public class Userdefined {
+	public static void main(String[] args) {
+		
+		int vote(int age) {
+			if (age<18) {
+				
+			}
+		
+			
+		}
+		
+		
+		
+		
+		
+	}
+
+}

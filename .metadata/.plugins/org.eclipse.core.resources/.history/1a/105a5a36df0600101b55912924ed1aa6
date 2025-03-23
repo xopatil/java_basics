@@ -1,0 +1,23 @@
+package exception;
+
+class A1 {
+    void meth() {
+        try {
+            int a[] = new int[5];
+            a[10] = 10 / 0; // Causes ArrayIndexOutOfBoundsException first
+        } 
+        catch (ArrayIndexOutOfBoundsException e) { // First specific exception
+            System.out.println("Array Index Out of Bounds: " + e);
+        }
+        catch (ArithmeticException e) { // Second specific exception
+            System.out.println("Arithmetic Exception: " + e);
+        }
+    }
+}
+
+public class Multicatch {
+    public static void main(String[] args) {
+        A1 a1 = new A1();
+        a1.meth();
+    }
+}

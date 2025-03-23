@@ -1,0 +1,19 @@
+package exception;
+
+
+
+class A1{
+	
+	int a[] = new int[5];
+
+	
+	
+}
+
+
+public class Multicatch {
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+package q1a;
+import static java.lang.System.*;
+
+
+class A{
+	
+	static void meth() {
+		System.out.println("this is the static method ");
+	}
+}
+
+
+public class importstatic {
+	public static void main(String[] args) {
+		
+		static void meth1() {
+			System.out.println("hello");
+			
+		}
+		
+		out.println("this is static method");
+		
+	}
+
+}

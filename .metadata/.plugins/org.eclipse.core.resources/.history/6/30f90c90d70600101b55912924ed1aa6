@@ -1,0 +1,11 @@
+package q1b;
+
+import static importstatic.meth;
+
+public class B {
+	public static void main(String[] args) {
+		
+
+	}
+
+}

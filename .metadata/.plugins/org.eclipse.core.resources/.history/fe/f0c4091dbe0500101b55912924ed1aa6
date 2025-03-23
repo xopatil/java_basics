@@ -1,0 +1,39 @@
+package question1;
+
+interface Policy {
+	double calsal(double sal , double bonus);
+}
+
+
+abstract class Company {
+	void hours() {
+		System.out.println("hours");
+	}
+	abstract void salary();
+	abstract void work();
+	
+	
+	
+}
+
+class Employee extends Company{
+
+	@Override
+	void salary() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void work() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
+
+public class One {
+	public static void main(String[] args) {
+
+	}
+}

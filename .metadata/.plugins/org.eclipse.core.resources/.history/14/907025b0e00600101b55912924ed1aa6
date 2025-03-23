@@ -1,0 +1,26 @@
+package exception;
+
+class AgeException extends Exception {
+
+}
+
+class B{
+	void B(int age) throws AgeException {
+		if(age<18) {
+			System.out.println("voting is not allowed");
+		}else {
+			System.out.println("you re allowed to vote");
+		}
+	
+	}
+}
+
+public class Userdefined {
+	public static void main(String[] args) {
+		B b = new B();
+		b.B(16);
+		
+
+	}
+
+}

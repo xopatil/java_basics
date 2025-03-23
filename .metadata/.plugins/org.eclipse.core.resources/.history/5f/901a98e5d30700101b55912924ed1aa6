@@ -1,0 +1,30 @@
+package question3;
+
+ interface Company{
+
+	 double calsal(double sal,double bonus, double tax);
+	 double calsal(double sal, double bonus);
+}
+class Account implements Company{
+
+	@Override
+	public double calsal(double sal, double bonus, double tax) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double calsal(double sal, double bonus) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+}
+
+
+public class Main {
+	public static void main(String[] args) {
+		
+	}
+
+}

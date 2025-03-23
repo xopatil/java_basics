@@ -1,0 +1,16 @@
+package chapter10;
+
+public class Stringclasses {
+	public static void main(String[] args) {
+		
+		String s1 = "soham";
+		String s2 = "tejas";
+		String s3 = " soham "
+		System.out.println(s1.length());
+		System.out.println(s1.compareTo(s2));
+		
+		
+		
+	}
+
+}

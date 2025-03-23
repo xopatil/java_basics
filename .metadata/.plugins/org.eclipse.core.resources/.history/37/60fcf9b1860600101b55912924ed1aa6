@@ -1,0 +1,32 @@
+package q2;
+
+
+class Emp{
+	String name;
+	int id;
+	public Emp(String name, int id) {
+		super();
+		this.name = name;
+		this.id = id;
+	}
+	@Override
+	public String toString() {
+		return "Emp [name=" + name + ", id=" + id + "]";
+	}
+	@Override
+	protected void finalize() throws Throwable {
+		System.out.println("the object is deleted");
+	}
+}
+
+
+
+public class Fetch {
+	public static void main(String[] args) {
+		Emp emp = new Emp("soham", 1);
+		emp =null;
+		System.gc();
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package chapter10;
+
+public class Stringclasses {
+	public static void main(String[] args) {
+		
+		String S1 = "soham";
+		System.out.println(S1.length());
+		
+		
+	}
+
+}

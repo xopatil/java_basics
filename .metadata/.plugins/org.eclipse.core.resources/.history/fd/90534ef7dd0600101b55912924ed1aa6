@@ -1,0 +1,22 @@
+package exception;
+
+
+
+class A1{
+	
+	void meth() {
+		int a []= new int[5];
+		a[10]=10/0;
+	}
+
+	
+	
+}
+
+
+public class Multicatch {
+	public static void main(String[] args) {
+		
+	}
+
+}

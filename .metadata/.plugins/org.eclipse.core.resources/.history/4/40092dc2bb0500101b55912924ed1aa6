@@ -1,0 +1,11 @@
+package question1;
+
+interface Policy {
+
+}
+
+public class One {
+	public static void main(String[] args) {
+
+	}
+}

@@ -1,0 +1,9 @@
+package Q3p2;
+import Q3p1.*;
+
+public class Main {
+	public static void main(String[] args) {
+		
+	}
+
+}
