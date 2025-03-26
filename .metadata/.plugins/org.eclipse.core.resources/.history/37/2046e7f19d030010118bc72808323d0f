@@ -1,9 +1,0 @@
-package Q3p2;
-
-
-public class Main extends Q3p {
-	public static void main(String[] args) {
-		
-	}
-
-}
