@@ -1,6 +1,6 @@
-package Q3;
+package q3;
 
-import Q3.Outer.Inner;
+import q3.Outer.Inner;
 
 class Outer {
 
